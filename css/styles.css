@@ -771,7 +771,6 @@ textarea {
 .modal-field {
   display: flex;
   flex-direction: column;
-  gap: 4px;
   margin-bottom: 8px;
 }
 
@@ -799,6 +798,10 @@ textarea {
   border-color: #4d5ae5;
 }
 
+.input-wrapper {
+  position: relative;
+}
+
 .input-wrapper svg {
   position: absolute;
   left: 16px;
@@ -812,7 +815,7 @@ textarea {
   fill: #4d5ae5;
 }
 
-.modal-field .textarea-field {
+.textarea-field {
   margin-bottom: 16px;
 }
 
